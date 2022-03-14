@@ -1,0 +1,17 @@
+
+            digraph G{
+        
+            rankdir = LR
+
+            node [margin=0 shape=circle style=filled]
+            Nodo1[label="Nombre: allan
+Cantidad: 3
+Tipo_Pizza: piña
+Tiempo: 6 min"];
+Nodo2[label="Nombre: jose
+Cantidad: 2
+Tipo_Pizza: salchicha
+Tiempo: 14 min"];
+Nodo1->Nodo2;label = "TIEMPO TOTAL DE LOS PEDIDOS DE PIZZA: 14 min"
+            }
+            
